@@ -34,3 +34,10 @@
 .vs/
 *.db
 *.opendb
+**/Debug/*
+ipch
+*.pdb
+**/*.vcxproj
+**/*.vcxproj.filters
+Debug
+*.metagen
