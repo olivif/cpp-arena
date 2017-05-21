@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  StringProblemsTest.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  All 1645 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+googletest_v140.lib(gtest-all.obj) : warning LNK4099: PDB 'googletest_v140.pdb' was not found with 'googletest_v140.lib(gtest-all.obj)' or at 'C:\Users\olivi\Repos\cpp-arena\x64\Release\googletest_v140.pdb'; linking object as if no debug info
+  CppArena.Test.vcxproj -> C:\Users\olivi\Repos\cpp-arena\x64\Release\CppArena.Test.dll
+  CppArena.Test.vcxproj -> C:\Users\olivi\Repos\cpp-arena\x64\Release\CppArena.Test.pdb (Full PDB)
