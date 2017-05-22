@@ -5,18 +5,47 @@
 
 #include "gtest/gtest.h"
 
-TEST(Test1, EqualStrings)
+#include "../CppArena/StringProblems.cpp"
+
+using namespace Beginner;
+
+TEST(IsAnagram, EqualStrings)
 {
 	// Arrange
 	auto s1 = "abc";
 	auto s2 = "abc";
 
 	// Act
-	//auto isAnagram = ::isAnagram(s1, s2);
+	auto isAnagram = ::isAnagram(s1, s2);
 
 	// Assert
-	//Assert::IsTrue(isAnagram);
-	EXPECT_FALSE(false);
+	EXPECT_TRUE(isAnagram);
+}
+
+TEST(IsAnagram, Anagram)
+{
+	// Arrange
+	auto s1 = "abc";
+	auto s2 = "bca";
+
+	// Act
+	auto isAnagram = ::isAnagram(s1, s2);
+
+	// Assert
+	EXPECT_TRUE(isAnagram);
+}
+
+TEST(IsAnagram, NotAnagram)
+{
+	// Arrange
+	auto s1 = "abc";
+	auto s2 = "dasdsa";
+
+	// Act
+	auto isAnagram = ::isAnagram(s1, s2);
+
+	// Assert
+	EXPECT_FALSE(isAnagram);
 }
 
 int main(int argc, char **argv)
