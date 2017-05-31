@@ -20,6 +20,7 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="Stdafx.h" />
     <ClInclude Include="NarrowingTest.h" />
+    <ClInclude Include="ExplicitConstructorClass.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StringProblems.cpp">
@@ -28,6 +29,7 @@
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="Stdafx.cpp" />
     <ClCompile Include="NarrowingTest.cpp" />
+    <ClCompile Include="ExplicitConstructorClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
