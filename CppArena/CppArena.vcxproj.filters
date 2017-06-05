@@ -14,6 +14,9 @@
     <Filter Include="src\language">
       <UniqueIdentifier>{605e55ce-1ded-49d8-8b8b-3fddb20bc764}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\compression">
+      <UniqueIdentifier>{09fba8d2-5f4d-4907-b946-f09c0ba449ec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StringProblems.h">
@@ -28,6 +31,7 @@
     <ClInclude Include="NarrowingTest.h">
       <Filter>src\language</Filter>
     </ClInclude>
+    <ClInclude Include="RunLengthEncoder.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StringProblems.cpp">
@@ -41,6 +45,7 @@
     <ClCompile Include="NarrowingTest.cpp">
       <Filter>src\language</Filter>
     </ClCompile>
+    <ClCompile Include="RunLengthEncoder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />

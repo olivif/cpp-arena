@@ -1,6 +1,6 @@
 #pragma once
 
-ref class ExplicitConstructorClass
+class ExplicitConstructorClass
 {
 public:
 	ExplicitConstructorClass(int value);
