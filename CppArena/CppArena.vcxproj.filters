@@ -11,6 +11,9 @@
     <Filter Include="src\beginner">
       <UniqueIdentifier>{b64d44cb-9bd1-469b-b4f2-56154991c8e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\language">
+      <UniqueIdentifier>{605e55ce-1ded-49d8-8b8b-3fddb20bc764}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StringProblems.h">
@@ -19,8 +22,12 @@
     <ClInclude Include="CppArena.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Stdafx.h" />
-    <ClInclude Include="NarrowingTest.h" />
-    <ClInclude Include="ExplicitConstructorClass.h" />
+    <ClInclude Include="ExplicitConstructorClass.h">
+      <Filter>src\language</Filter>
+    </ClInclude>
+    <ClInclude Include="NarrowingTest.h">
+      <Filter>src\language</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StringProblems.cpp">
@@ -28,8 +35,12 @@
     </ClCompile>
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="Stdafx.cpp" />
-    <ClCompile Include="NarrowingTest.cpp" />
-    <ClCompile Include="ExplicitConstructorClass.cpp" />
+    <ClCompile Include="ExplicitConstructorClass.cpp">
+      <Filter>src\language</Filter>
+    </ClCompile>
+    <ClCompile Include="NarrowingTest.cpp">
+      <Filter>src\language</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
