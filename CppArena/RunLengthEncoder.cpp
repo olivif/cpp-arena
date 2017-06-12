@@ -15,12 +15,13 @@ std::string RunLengthEncoder::Encode(const std::string& data) const
 
 	std::stringstream stream;
 	size_t current = 0;
+	size_t length = data.length();
 
-	while (current < (data.length - 1))
+	while (current < (length - 1))
 	{
 		// Loop while we have the same character
 		size_t sequenceLength = 0;
-		while (current < data.length - 1 && data[current] == data[current + 1])
+		while (current < length - 1 && data[current] == data[current + 1])
 		{
 			++sequenceLength;
 			++current;
