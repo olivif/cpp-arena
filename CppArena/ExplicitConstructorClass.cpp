@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "ExplicitConstructorClass.h"
 
 ExplicitConstructorClass::ExplicitConstructorClass(int value)

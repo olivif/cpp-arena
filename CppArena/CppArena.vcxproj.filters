@@ -17,7 +17,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
-    <ClInclude Include="Stdafx.h" />
     <ClInclude Include="ExplicitConstructorClass.h">
       <Filter>src\language</Filter>
     </ClInclude>
@@ -33,7 +32,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
-    <ClCompile Include="Stdafx.cpp" />
     <ClCompile Include="ExplicitConstructorClass.cpp">
       <Filter>src\language</Filter>
     </ClCompile>

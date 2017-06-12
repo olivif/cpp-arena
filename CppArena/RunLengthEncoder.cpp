@@ -1,5 +1,3 @@
-#include "stdafx.h"
-
 #include <sstream>
 
 #include "RunLengthEncoder.h"
