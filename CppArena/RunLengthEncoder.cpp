@@ -2,10 +2,6 @@
 
 #include "RunLengthEncoder.h"
 
-RunLengthEncoder::RunLengthEncoder()
-{
-}
-
 std::string RunLengthEncoder::Encode(const std::string& data) const
 {
 	// For every character, check if it's part of a sequence.

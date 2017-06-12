@@ -7,8 +7,6 @@
 class RunLengthEncoder : public IEncoder
 {
 public:
-	RunLengthEncoder();
-
 	// Inherited via IEncoder
 	virtual std::string Encode(const std::string&) const override;
 };
