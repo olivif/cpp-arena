@@ -134,6 +134,7 @@
   <ItemGroup>
     <ClInclude Include="CppArena.h" />
     <ClInclude Include="ExplicitConstructorClass.h" />
+    <ClInclude Include="IEncoder.h" />
     <ClInclude Include="NarrowingTest.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="RunLengthEncoder.h" />

@@ -31,7 +31,12 @@
     <ClInclude Include="NarrowingTest.h">
       <Filter>src\language</Filter>
     </ClInclude>
-    <ClInclude Include="RunLengthEncoder.h" />
+    <ClInclude Include="RunLengthEncoder.h">
+      <Filter>src\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="IEncoder.h">
+      <Filter>src\compression</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StringProblems.cpp">
@@ -45,7 +50,9 @@
     <ClCompile Include="NarrowingTest.cpp">
       <Filter>src\language</Filter>
     </ClCompile>
-    <ClCompile Include="RunLengthEncoder.cpp" />
+    <ClCompile Include="RunLengthEncoder.cpp">
+      <Filter>src\compression</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
