@@ -12,7 +12,6 @@ std::string RunLengthEncoder::Encode(const std::string& data) const
 {
 	// For every character, check if it's part of a sequence.
 	// If it is, collapse it and encode into {char}{sequencelength}
-
 	std::stringstream stream;
 	size_t current = 0;
 	size_t length = data.length();
