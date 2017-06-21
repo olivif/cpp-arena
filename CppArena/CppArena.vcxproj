@@ -134,6 +134,7 @@
   <ItemGroup>
     <ClInclude Include="ExplicitConstructorClass.h" />
     <ClInclude Include="IEncoder.h" />
+    <ClInclude Include="MoveClass.h" />
     <ClInclude Include="NarrowingTest.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="RunLengthEncoder.h" />
@@ -141,6 +142,7 @@
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="ExplicitConstructorClass.cpp" />
+    <ClCompile Include="MoveClass.cpp" />
     <ClCompile Include="NarrowingTest.cpp" />
     <ClCompile Include="RunLengthEncoder.cpp" />
   </ItemGroup>

@@ -29,6 +29,9 @@
     <ClInclude Include="IEncoder.h">
       <Filter>src\compression</Filter>
     </ClInclude>
+    <ClInclude Include="MoveClass.h">
+      <Filter>src\language</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
@@ -40,6 +43,9 @@
     </ClCompile>
     <ClCompile Include="RunLengthEncoder.cpp">
       <Filter>src\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveClass.cpp">
+      <Filter>src\language</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
