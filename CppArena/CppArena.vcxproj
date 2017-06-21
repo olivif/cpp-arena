@@ -138,6 +138,7 @@
     <ClInclude Include="NarrowingTest.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="RunLengthEncoder.h" />
+    <ClInclude Include="TemplateTypeDeduction.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />

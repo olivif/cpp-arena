@@ -32,6 +32,9 @@
     <ClInclude Include="MoveClass.h">
       <Filter>src\language</Filter>
     </ClInclude>
+    <ClInclude Include="TemplateTypeDeduction.h">
+      <Filter>src\language</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
